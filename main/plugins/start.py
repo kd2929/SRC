@@ -1,7 +1,7 @@
-#Github.com/mrinvisible7
+#Github.com/YourAbbuFromTg 
 
 import os
-from .. import bot as Invix
+from .. import bot as ASUR 
 from telethon import events, Button
 
 #from ethon.mystarts import start_srb
@@ -42,7 +42,7 @@ async def remt(event):
   
 @Invix.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨🏻‍💻Owner: https://telegram.dog/Mister_invisiblebot.\n**support:** https://telegram.dog/mr_invisible_bots"
+    text = "Hello Bruh🔥 I am the **MOST POWERFULL 😈 Save Restricted Content bot** Available on Telegram.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨🏻‍💻**मालिक**: https://telegram.dog/Rexo_Talk_bot.\n**support:** https://telegram.dog/REXODAS2023"
     #await start_srb(event, text)
     '''
     await event.reply(text, 
@@ -56,6 +56,6 @@ async def start(event):
                       buttons=[
                               [Button.inline("SET THUMB.", data="set"),
                                Button.inline("REM THUMB.", data="rem")],
-                              [Button.url("🔰 Maintained and Developed by 🔰", url="https://telegram.dog/mr_invisible_bots")]])
+                              [Button.url("🔰 Modified  by 🔰", url="https://telegram.dog/Rexo_Talk_bot")]])
     
     
