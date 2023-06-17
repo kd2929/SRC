@@ -84,7 +84,7 @@ async def _batch(event):
                 await conv.send_message(r)
                 return
             batch.append(f'{event.sender_id}')
-            cd = await conv.send_message("**Batch process ongoing.**\n\nProcess completed: ", 
+            cd = await conv.send_message("**Batch process ongoing ⚠️.**\n\nProcess completed 💫: ", 
                                     buttons=[[Button.inline("CANCEL❌", data="cancel")]])
             co = await run_batch(userbot, Bot, event.sender_id, cd, _link) 
             try: 
