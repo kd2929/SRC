@@ -1,4 +1,4 @@
-#Github.com/mrinvisible7
+#Github.com/YourAbbuFromTg 
 
 import asyncio, time, os
 
@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**DOWNLOADING:**\n**bot made by Mr. Invisible**",
+                    "**DOWNLOADING:**\n**Your Abbu 🚨**",
                     edit,
                     time.time()
                 )
@@ -186,7 +186,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**UPLOADING:**\n**bot made by Mr. Invisible**',
+                        '**UPLOADING:**\n**Your Abbu 🚨**',
                         upm,
                         time.time()
                     )
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**UPLOADING:**\n**bot made by Mr. Invisible**',
+                        '**UPLOADING:**\n**Your Abbu 🚨**',
                         upm,
                         time.time()
                     )
