@@ -1,4 +1,4 @@
-#Github.com/mrinvisible7
+#Github.com/YourAbbuFromTg
 
 from pyrogram import Client
 
