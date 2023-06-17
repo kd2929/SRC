@@ -42,7 +42,7 @@ async def remt(event):
   
 @ASUR.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "Hello Bruh🔥 I am the **MOST POWERFULL 😈 Save Restricted Content bot** Available on Telegram.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨🏻‍💻**मालिक:** @Rexo_Talk_bot.\n**support:** @REXODAS2023"
+    text = "Hello Bruh🔥 I am the **MOST POWERFULL 😈 Save Restricted Content bot** Available on Telegram.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨🏻‍💻**मालिक:** @Rexodas_Talk_bot.\n**support:** @REXODAS2023"
     #await start_srb(event, text)
     '''
     await event.reply(text, 
