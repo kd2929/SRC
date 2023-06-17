@@ -1,5 +1,5 @@
-#Tg:@mister_invisiblebot/save_restricted
-#Github. com/mrinvisible7
+#Tg:@AsurReborn_bot/SabeMaster 
+#Github. com/YourAbbuFromTg 
 
 """
 Plugin for both public & private channels!
@@ -8,7 +8,7 @@ Plugin for both public & private channels!
 import logging
 import time, os, asyncio
 
-from .. import bot as Invix
+from .. import bot as ASUR
 from .. import userbot, Bot, AUTH, SUDO_USERS
 #from .. import FORCESUB as fs
 from main.plugins.pyroplug import check, get_bulk_msg
@@ -36,7 +36,7 @@ ids = []
     msg = await userbot.get_messages(chat, ids=id)
     await event.client.send_message(event.chat_id, msg) 
 '''   
-@Invix.on(events.NewMessage(incoming=True, from_users=SUDO_USERS, pattern='/batch'))
+@ASUR.on(events.NewMessage(incoming=True, from_users=SUDO_USERS, pattern='/batch'))
 async def _batch(event):
     '''
     #if not event.is_private:
