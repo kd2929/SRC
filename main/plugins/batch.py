@@ -51,7 +51,7 @@ async def _batch(event):
     s = False
     if f'{event.sender_id}' in batch:
         return await event.reply("You've already started one batch, wait for it to complete you dumbfuck owner!")
-    async with Invix.conversation(event.chat_id) as conv: 
+    async with ASUR.conversation(event.chat_id) as conv: 
         if not s:
             await conv.send_message("Send me the message link you want to start saving from, as a reply to this message.", buttons=Button.force_reply())
             try:
@@ -97,7 +97,7 @@ async def _batch(event):
             ids.clear()
             batch.clear()
 
-@Invix.on(events.callbackquery.CallbackQuery(data="cancel"))
+@ASUR.on(events.callbackquery.CallbackQuery(data="cancel"))
 async def cancel(event):
     ids.clear()
     
