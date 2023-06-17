@@ -3,7 +3,7 @@
 import time, os
 
 import logging
-from .. import bot as Invix
+from .. import bot as ASUR
 from .. import userbot, Bot
 from .. import FORCESUB as fs
 from main.plugins.pyroplug import get_msg
@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger("telethon").setLevel(logging.INFO)
 
-ft = f"To use this bot you've to join @{fs}./n/Also join @mr_invisible_bots"
+ft = f"To use this bot you've to join @{fs}./n/Also join @REXODAS2023"
 
 message = "Send me the message link you want to start saving from, as a reply to this message."
           
@@ -31,7 +31,7 @@ user=[]
 
  
 
-@Invix.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
+@ASUR.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def clone(event):
     logging.info(event)
     file_name = ''
