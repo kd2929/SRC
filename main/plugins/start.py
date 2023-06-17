@@ -8,13 +8,13 @@ from telethon import events, Button
     
 S = '/' + 's' + 't' + 'a' + 'r' + 't'
 
-@Invix.on(events.callbackquery.CallbackQuery(data="set"))
+@ASUR.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
-    Invix = event.client
+    ASUR = event.client
     button = await event.get_message()
     msg = await button.get_reply_message()
     await event.delete()
-    async with Invix.conversation(event.chat_id) as conv: 
+    async with ASUR.conversation(event.chat_id) as conv: 
         xx = await conv.send_message("Send me any image for thumbnail as a `reply` to this message.")
         x = await conv.get_reply()
         if not x.media:
@@ -30,9 +30,9 @@ async def sett(event):
         os.rename(path, f'./{event.sender_id}.jpg')
         await t.edit("Temporary thumbnail saved!")
         
-@Invix.on(events.callbackquery.CallbackQuery(data="rem"))
+@ASUR.on(events.callbackquery.CallbackQuery(data="rem"))
 async def remt(event):  
-    Invix = event.client            
+    ASUR = event.client            
     await event.edit('Trying.')
     try:
         os.remove(f'{event.sender_id}.jpg')
@@ -40,7 +40,7 @@ async def remt(event):
     except Exception:
         await event.edit("No thumbnail saved.")                        
   
-@Invix.on(events.NewMessage(incoming=True, pattern=f"{S}"))
+@ASUR.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
     text = "Hello Bruh🔥 I am the **MOST POWERFULL 😈 Save Restricted Content bot** Available on Telegram.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨🏻‍💻**मालिक**: https://telegram.dog/Rexo_Talk_bot.\n**support:** https://telegram.dog/REXODAS2023"
     #await start_srb(event, text)
