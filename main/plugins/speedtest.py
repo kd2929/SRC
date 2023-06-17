@@ -12,7 +12,7 @@ from main.__main__ import botStartTime
 #from bot.helper.telegram_helper.message_utils import auto_delete_message, sendMessage, deleteMessage, sendPhoto, editMessage  #wow
 #from bot.helper.ext_utils.bot_utils import get_readable_file_size
 from telethon import events
-from .. import bot as Invix
+from .. import bot as ASUR 
 from .. import Bot, AUTH, SUDO_USERS
 
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
