@@ -148,9 +148,9 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 caption = msg.caption
             if str(file).split(".")[-1] in ['mkv', 'mp4', 'webm', 'mpe4', 'mpeg']:
                 if str(file).split(".")[-1] in ['webm', 'mkv', 'mpe4', 'mpeg']:
-                    path = str(file).split(".")[0] + ".mp4"
-                    os.rename(file, path) = os.rename(file, path).replace("@ImTgLoki", " ").replace("@LokiTheRobot", " ").replace("@TgLokii", " ")
-                    file = str(file).split(".")[0] + ".mp4"
+                    path = str(file).split(".")[0] + ".mkv"
+                    os.rename(file, path)
+                    file = str(file).split(".")[0] + ".mkv"
                 data = video_metadata(file)
                 duration = data["duration"]
                 wi= data["width"]
@@ -166,7 +166,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                         
                         path = f'/app/downloads/{file_n}.' + str(file).split(".")[-1]
 
-                    os.rename(file, path) = os.rename(file, path).replace("@ImTgLoki", " ").replace("@LokiTheRobot", " ").replace("@TgLokii", " ")
+                    os.rename(file, path)
                     file = path
                 try:
                     thumb_path = await screenshot(file, duration, sender)
@@ -199,7 +199,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     else:
                         path = f'/app/downloads/{file_n}.' + str(file).split(".")[-1]
 
-                    os.rename(file, path) = os.rename(file, path).replace("@ImTgLoki", " ").replace("@LokiTheRobot", " ").replace("@TgLokii", " ")
+                    os.rename(file, path)
                     file = path
 
                 
@@ -217,7 +217,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     else:
                         path = f'/app/downloads/{file_n}.' + str(file).split(".")[-1]
 
-                    os.rename(file, path) = os.rename(file, path).replace("@ImTgLoki", " ").replace("@LokiTheRobot", " ").replace("@TgLokii", " ")
+                    os.rename(file, path)
                     file = path
                 thumb_path=thumbnail(sender)
                 caption = msg.caption if msg.caption is not None else str(file).split("/")[-1]
