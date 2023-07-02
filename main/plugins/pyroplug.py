@@ -148,9 +148,9 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 caption = msg.caption
             if str(file).split(".")[-1] in ['mkv', 'mp4', 'webm', 'mpe4', 'mpeg']:
                 if str(file).split(".")[-1] in ['webm', 'mkv', 'mpe4', 'mpeg']:
-                    path = str(file).split(".")[0] + ".mkv"
+                    path = str(file).split(".")[0] + ".mp4"
                     os.rename(file, path)
-                    file = str(file).split(".")[0] + ".mkv"
+                    file = str(file).split(".")[0] + ".mp4"
                 data = video_metadata(file)
                 duration = data["duration"]
                 wi= data["width"]
