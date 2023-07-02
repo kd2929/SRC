@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption,
+                    caption=caption.replace("@ImTgLoki", "Anonymous").replace("@LokiTheRobot", "Anonymous"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption,
+                    caption=caption.replace("@ImTgLoki", "Anonymous").replace("@LokiTheRobot", "Anonymous"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
