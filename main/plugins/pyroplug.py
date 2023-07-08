@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("@ImTgLoki", "Anonymous").replace("@LokiTheRobot", "Anonymous").replace("@TgLokii", "Anonymous"),
+                    caption=caption.replace("@ImTgLoki", "Hï†Måñ").replace("@LokiTheRobot", "Hï†Måñ").replace("@TgLokii", "Hï†Måñ").replace("BHAUKAL❤️", "Bot Made By Hï†Måñ").replace("#BHAUKAL❤️", "Bot Made By Hï†Måñ").replace("BHAUKAL💖", "Bot Made By Hï†Måñ"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
