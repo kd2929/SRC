@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL", "**Bot Made By Hï†Måñ**"),
+                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL", "**Bot Made By Hï†Måñ**").replace("DOWNLOADED BY YOUR FATHER", "**Uploaded By :**`@Spartan2023`").replace("downloaded by your @WhatsAppnumber", "**Uploaded By :**`@Spartan2023`"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
