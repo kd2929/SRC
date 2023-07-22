@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#PHILLIP_&_INFINITE", "**Uploaded By `@Spartan2023`**").replace("Video Resolution :- 720", "").replace("[ @Jaadoo_official_bot ]", "`@Spartan2023`").replace("Bot Made by :- jeryy507", "").replace("jerry", "").replace("[", "").replace("]", "").replace("jerry.mkv", ".mkv"),
+                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#PHILLIP_&_INFINITE", "**Uploaded By `@Spartan2023`**").replace("Video Resolution :- 720", "").replace("[ @Jaadoo_official_bot ]", "`@Spartan2023`").replace("Bot Made by :- jeryy507", "").replace("jerry", "").replace("[", "").replace("]", "").replace("jerry.mkv", ".mkv").replace("Downloaded by Bot of @GParle", "").replace("🅱🅰🅰🆉🅸🅶🅰🆁", "**ＡＳＵＲ**"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#PHILLIP_&_INFINITE", "**Uploaded By `@Spartan2023`**").replace("Video Resolution :- 720", "").replace("[ @Jaadoo_official_bot ]", "`@Spartan2023`").replace("Bot Made by :- jeryy507", "").replace("jerry.pdf",".pdf").replace("_pdf", "").replace("_pdf2", "").replace("[", "").replace("]", ""),
+                    caption=caption.replace("@ImTgLoki", "**Hï†Måñ**").replace("@LokiTheRobot", "**Hï†Måñ**").replace("@TgLokii", "**Hï†Måñ**").replace("BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("#BHAUKAL❤️", "**Bot Made By Hï†Måñ**").replace("BHAUKAL💖", "**Bot Made By Hï†Måñ**").replace("#PHILLIP_&_INFINITE", "**Uploaded By `@Spartan2023`**").replace("Video Resolution :- 720", "").replace("[ @Jaadoo_official_bot ]", "`@Spartan2023`").replace("Bot Made by :- jeryy507", "").replace("jerry.pdf",".pdf").replace("_pdf", "").replace("_pdf2", "").replace("[", "").replace("]", "").replace("Downloaded by Bot of @GParle", "").replace("🅱🅰🅰🆉🅸🅶🅰🆁", "**ＡＳＵＲ**"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
