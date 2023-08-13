@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("#PHILLIP_&_INFINITE", "**Uploaded By : ＡＳＵＲ**\n`@AsurTalkBot`").replace("Downloaded by Bot of @GParle", "").replace("Batch Name :", "**Batch Name :**").replace("Batch » RUDRA 4.0 + Rudra Mini QUANT BATCH | By Minakshi Ma'am", "**Batch Name :** Rudra 4.0 + Rudra Mini Quant Batch By Minakshi | Guidely\n\n**Downloaded By :** Unofficial Admins").replace("_", " ").replace("640×360", ".mkv"),
+                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("#ABHI..😇 | @ASMultiverse 🤖", "").replace("@MadXAbhi 😇", "").replace("Batch Name :", "**Batch Name :**").replace("Batch »", "**Batch Name :**").replace("_", " ").replace(".mp4", ".mkv").replace("~", "").replace("!", "").replace("File Name »", ""),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("#PHILLIP_&_INFINITE", "**Uploaded By : ＡＳＵＲ**\n`@AsurTalkBot`").replace("Downloaded by Bot of @GParle", "").replace("Batch Name :", "**Batch Name :**").replace("Batch » RUDRA 4.0 + Rudra Mini QUANT BATCH | By Minakshi Ma'am", "**Batch Name :** Rudra 4.0 + Rudra Mini Quant Batch By Minakshi | Guidely\n\n**Downloaded By :** Unofficial Admins").replace("_", " ").replace("640×360", ".mkv"),
+                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("#ABHI..😇 | @ASMultiverse 🤖", "").replace("@MadXAbhi 😇", "").replace("Batch Name :", "**Batch Name :**").replace("Batch »", "**Batch Name :**").replace("_", " ").replace(".mp4", ".mkv").replace("~", "").replace("!", "").replace("File Name »", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
