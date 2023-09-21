@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("by♛ऋषभ राजपूत","").replace("ℍ𝕖𝕝𝕡 𝕠𝕥𝕙𝕖𝕣𝕤 𝔾𝕠𝕕 𝕨𝕚𝕝𝕝 𝕙𝕖𝕝𝕡 𝕐𝕠𝕦", "").replace("RESOLUTION:-720", "").replace("Download By : 👑 KING R & 👸QUEEN P", "").replace("BATCH NAME :-" ,"**Batch Name :**"),
+                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("by♛ऋषभ राजपूत","").replace("ℍ𝕖𝕝𝕡 𝕠𝕥𝕙𝕖𝕣𝕤 𝔾𝕠𝕕 𝕨𝕚𝕝𝕝 𝕙𝕖𝕝𝕡 𝕐𝕠𝕦", "").replace("RESOLUTION:-720", "").replace("Download By : 👑 KING R & 👸QUEEN P", "").replace("BATCH NAME :-" ,"**Batch Name :**").replace("[", " |").replace("]", ""),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("by♛ऋषभ राजपूत","").replace("ℍ𝕖𝕝𝕡 𝕠𝕥𝕙𝕖𝕣𝕤 𝔾𝕠𝕕 𝕨𝕚𝕝𝕝 𝕙𝕖𝕝𝕡 𝕐𝕠𝕦", "").replace("RESOLUTION:-720", "").replace("Download By : 👑 KING R & 👸QUEEN P", "").replace("BATCH NAME :-" ,"**Batch Name :**"),
+                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("by♛ऋषभ राजपूत","").replace("ℍ𝕖𝕝𝕡 𝕠𝕥𝕙𝕖𝕣𝕤 𝔾𝕠𝕕 𝕨𝕚𝕝𝕝 𝕙𝕖𝕝𝕡 𝕐𝕠𝕦", "").replace("RESOLUTION:-720", "").replace("Download By : 👑 KING R & 👸QUEEN P", "").replace("BATCH NAME :-" ,"**Batch Name :**").replace("[", " |").replace("]", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
