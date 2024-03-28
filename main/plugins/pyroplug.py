@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Downloaded By :** `@AsurTalkBot`").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("File No:", "").replace("File name:", "").replace("Batch Name : 𝐁𝐚𝐬𝐢𝐜 𝐓𝐨 𝐁𝐫𝐢𝐥𝐥𝐢𝐚𝐧𝐜𝐞", "\n**Batch Name :** Basic to Brilliance | Tarun Sir").replace("Batch Name : 𝐆𝐫𝐚𝐦𝐦𝐚𝐫 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐏𝐫𝐨", "\n**Batch Name :** Grammar Practice Pro | Tarun Sir").replace("Batch Name : 𝐋𝐞𝐯𝐞𝐥 𝐔𝐩 𝐘𝐨𝐮𝐫 𝐄𝐧𝐠𝐥𝐢𝐬𝐡", "\n**Batch Name :** Level Up Your English | Tarun Sir").replace("Batch Name : 𝐒𝐮𝐩𝐞𝐫 𝐂𝐡𝐚𝐫𝐠𝐞 𝐘𝐨𝐮𝐫 𝐕𝐨𝐜𝐚𝐛𝐮𝐥𝐚𝐫𝐲", "\n**Batch Name :** Supercharge Your Vocabulary | Tarun Sir"),
+                    caption=caption.replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("@ImTgLoki", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@LokiTheRobot", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("@TgLokii", "**ＡＳＵＲ**\n`@AsurTalkBot`").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Downloaded By :** `@AsurTalkBot`").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("File No:", "").replace("File Name:", "").replace("Batch Name :𝐁𝐚𝐬𝐢𝐜 𝐓𝐨 𝐁𝐫𝐢𝐥𝐥𝐢𝐚𝐧𝐜𝐞", "\n**Batch Name :** Basic to Brilliance | Tarun Sir").replace("Batch Name :𝐆𝐫𝐚𝐦𝐦𝐚𝐫 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐏𝐫𝐨", "\n**Batch Name :** Grammar Practice Pro | Tarun Sir").replace("Batch Name :𝐋𝐞𝐯𝐞𝐥 𝐔𝐩 𝐘𝐨𝐮𝐫 𝐄𝐧𝐠𝐥𝐢𝐬𝐡", "\n**Batch Name :** Level Up Your English | Tarun Sir").replace("Batch Name :𝐒𝐮𝐩𝐞𝐫 𝐂𝐡𝐚𝐫𝐠𝐞 𝐘𝐨𝐮𝐫 𝐕𝐨𝐜𝐚𝐛𝐮𝐥𝐚𝐫𝐲", "\n**Batch Name :** Supercharge Your Vocabulary | Tarun Sir"),
+                    caption=caption.replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
