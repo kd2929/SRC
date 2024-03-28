@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4).replace("𝐌𝐚𝐭𝐡𝐬 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐋𝐢𝐯𝐞 𝐁𝐚𝐭𝐜𝐡 𝐁𝐲 𝐏𝐚𝐰𝐚𝐧 𝐑𝐚𝐨 𝐒𝐢𝐫 𝐅𝐫𝐨𝐦 𝟏𝟓𝐭𝐡 𝐌𝐚𝐫𝐜𝐡 𝟐𝟎𝟐𝟒", "Math Special Practice Live Batch | 15 March 2024 | Pawan Rao Sir"),
+                    caption=caption.replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4").replace("𝐌𝐚𝐭𝐡𝐬 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐋𝐢𝐯𝐞 𝐁𝐚𝐭𝐜𝐡 𝐁𝐲 𝐏𝐚𝐰𝐚𝐧 𝐑𝐚𝐨 𝐒𝐢𝐫 𝐅𝐫𝐨𝐦 𝟏𝟓𝐭𝐡 𝐌𝐚𝐫𝐜𝐡 𝟐𝟎𝟐𝟒", "Math Special Practice Live Batch | 15 March 2024 | Pawan Rao Sir"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗", "").replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4).replace("𝐌𝐚𝐭𝐡𝐬 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐋𝐢𝐯𝐞 𝐁𝐚𝐭𝐜𝐡 𝐁𝐲 𝐏𝐚𝐰𝐚𝐧 𝐑𝐚𝐨 𝐒𝐢𝐫 𝐅𝐫𝐨𝐦 𝟏𝟓𝐭𝐡 𝐌𝐚𝐫𝐜𝐡 𝟐𝟎𝟐𝟒", "Math Special Practice Live Batch | 15 March 2024 | Pawan Rao Sir").replace("Batch Name :", "**Batch Name : **"),replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "PDF"),
+                    caption=caption.replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4").replace("𝐌𝐚𝐭𝐡𝐬 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐋𝐢𝐯𝐞 𝐁𝐚𝐭𝐜𝐡 𝐁𝐲 𝐏𝐚𝐰𝐚𝐧 𝐑𝐚𝐨 𝐒𝐢𝐫 𝐅𝐫𝐨𝐦 𝟏𝟓𝐭𝐡 𝐌𝐚𝐫𝐜𝐡 𝟐𝟎𝟐𝟒", "Math Special Practice Live Batch | 15 March 2024 | Pawan Rao Sir").replace("Batch Name :", "**Batch Name : **").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "PDF"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
