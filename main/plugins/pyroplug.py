@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("𝐒𝚝𝚞𝚋𝚋𝘰𝚛η✿", "𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳").replace("(1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", "1280×720.mp4").replace("𝐌𝐚𝐭𝐡𝐬 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐋𝐢𝐯𝐞 𝐁𝐚𝐭𝐜𝐡 𝐁𝐲 𝐏𝐚𝐰𝐚𝐧 𝐑𝐚𝐨 𝐒𝐢𝐫 𝐅𝐫𝐨𝐦 𝟏𝟓𝐭𝐡 𝐌𝐚𝐫𝐜𝐡 𝟐𝟎𝟐𝟒", "Math Special Practice Live Batch | 15 March 2024 | Pawan Rao Sir").replace("Batch Name :", "**Batch Name : **").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "PDF").replace("Downloaded by", "**Downloaded By**").replace("Extracted By : @theone1second", "").replace("CUET 2024 Commerce Ka Khazana Batch  Bilingual Pre Recorded", "CUET 2024 | ADDA 247"),
+                    caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞:- 𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
