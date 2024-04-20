@@ -5,7 +5,7 @@ import time, os
 import logging
 from .. import bot as ASUR
 from .. import userbot, Bot
-from .. import FORCESUB as fs
+##from .. import FORCESUB as fs
 from main.plugins.pyroplug import get_msg
 from main.plugins.helpers import get_link, join, screenshot
 
@@ -13,7 +13,7 @@ from telethon import events
 from pyrogram.errors import FloodWait
 
 #from ethon.telefunc import force_sub
-from main.plugins.helpers import force_sub
+##from main.plugins.helpers import force_sub
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger("telethon").setLevel(logging.INFO)
 
-ft = f"To use this bot you've to join @{fs}./n"
+##ft = f"To use this bot you've to join @{fs}./n"
 
 message = "Send me the message link you want to start saving from, as a reply to this message."
           
@@ -52,12 +52,12 @@ async def clone(event):
             if not link:
                 return
     
-        except TypeError:
-            return
-        s, r = await force_sub(event.client, fs, event.sender_id, ft)
-        if s == True:
-            await event.reply(r)
-            return
+        ##except TypeError:
+           ## return
+       ## s, r = await force_sub(event.client, fs, event.sender_id, ft)
+        ##if s == True:
+            ##await event.reply(r)
+            ##return
         edit = await event.reply("Processing!")
         if f'{int(event.sender_id)}' in user:
             return await edit.edit("Please don't spam links, wait until ongoing process is done.")
