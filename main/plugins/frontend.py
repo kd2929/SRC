@@ -58,7 +58,7 @@ async def clone(event):
         ##if s == True:
             ##await event.reply(r)
             ##return
-        edit = await event.reply("Processing!")
+        ##edit = await event.reply("Processing!")
         if f'{int(event.sender_id)}' in user:
             return await edit.edit("Please don't spam links, wait until ongoing process is done.")
         user.append(f'{int(event.sender_id)}')
