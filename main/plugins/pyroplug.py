@@ -133,15 +133,15 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "DOWNLOADING\n\n**Bot Modified By** 𝐃𝐑𝐀𝐆𝐎",
+                    "Downloading Start....!",
                     edit,
                     time.time()
                 )
             )
             path = file
-            #await edit.edit('Preparing to Upload!')
+            #await edit.edit('Preparing to Upload....!')
             await edit.delete()
-            upm = await client.send_message(sender, 'Preparing to Upload!')
+            upm = await client.send_message(sender, 'Preparing to Upload....!')
             
             caption = str(file)
             if msg.caption is not None:
@@ -186,7 +186,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        'UPLOADING\n\n**Bot Modified By** 𝐃𝐑𝐀𝐆𝐎',
+                        'Uploading Start....!',
                         upm,
                         time.time()
                     )
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        'UPLOADING\n\n**Bot Modified By** 𝐃𝐑𝐀𝐆𝐎',
+                        'Uploading Start....!',
                         upm,
                         time.time()
                     )
@@ -248,6 +248,6 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
         return None   
  
 async def get_bulk_msg(userbot, client, sender, msg_link, i):
-    x = await client.send_message(sender, "Processing!")
+    x = await client.send_message(sender, "Processing....!")
     file_name = ''
     await get_msg(userbot, client, sender, x.id, msg_link, i, file_name) 
