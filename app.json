@@ -8,7 +8,7 @@
         "Save restricted content",
         "bot"
     ],
-    "repository": "https://github.com/187dasharath/savebotworking",
+    "repository": "https://github.com/Drago-Owner/SRC",
     "website": "",
     "success_url": "https://t.me/save_restricted",
     "env": {
@@ -31,11 +31,6 @@
         "AUTH": {
             "description": "User ID of Bot owner.",
             "value": ""
-        },
-        "FORCESUB": {
-            "description": "Username name of public channel without using '@'.",
-            "value": ""
-        }
-    },
-    "stack": "container"
+         },
+        "stack": "container"
 }    
