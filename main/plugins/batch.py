@@ -100,6 +100,7 @@ async def _batch(event):
 @ASUR.on(events.callbackquery.CallbackQuery(data="cancel"))
 async def cancel(event):
     ids.clear()
+    batch.clear()
     
 async def run_batch(userbot, client, sender, countdown, link):
     for i in range(len(ids)):
