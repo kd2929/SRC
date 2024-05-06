@@ -251,4 +251,4 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
 async def get_bulk_msg(userbot, client, sender, msg_link, i):
     x = await client.send_message(sender, "Processing....!")
     file_name = ''
-    await get_msg(userbot, client, chat_id=group_chat_id, x.id, msg_link, i, file_name) 
+    await get_msg(userbot, client, group_chat_id, x.id, msg_link, i, file_name) 
