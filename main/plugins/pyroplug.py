@@ -49,7 +49,7 @@ async def check(userbot, client, link):
     else:
         try:
             chat = str(link.split("/")[-2])
-            await client.get_messages(chat, msg_id)
+            await client.get_messages(chat, group_chat_id, msg_id)
             return True, None
         except Exception as e:
             logging.info(e)
