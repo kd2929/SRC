@@ -31,6 +31,13 @@
         "AUTH": {
             "description": "User ID of Bot owner.",
             "value": ""
+        },
+        "Pvt_GroupId": {
+            "description": "Username name of public channel without using '@'.",
+            "value": ""
+        }
+    },
+    "stack": "container"
          },
         "stack": "container"
-}    
+}
