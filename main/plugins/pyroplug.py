@@ -49,7 +49,7 @@ async def check(userbot, client, link):
     else:
         try:
             chat = str(link.split("/")[-2])
-            await client.get_messages(chat, group_chat_id, msg_id)
+            await client.get_messages(chat, msg_id)
             return True, None
         except Exception as e:
             logging.info(e)
@@ -209,7 +209,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 caption = msg.caption if msg.caption is not None else str(file).split("/")[-1]
                 await upm.edit("Uploading photo.")
 
-                await bot.send_file(sender, path, caption=caption)
+                await bot.send_file(group_chat_id, path, caption=caption)
             else:
                 if file_n != '':
                     #path = ''
