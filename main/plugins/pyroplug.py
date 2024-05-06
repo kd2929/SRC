@@ -15,6 +15,7 @@ from main.plugins.helpers import video_metadata
 from telethon import events
 
 import logging
+group_chat_id = int(-1001877289290)
 
 logging.basicConfig(level=logging.debug,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -175,7 +176,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     thumb_path = None
                 caption = msg.caption if msg.caption is not None else str(file).split("/")[-1]
                 await client.send_video(
-                    chat_id=sender,
+                    chat_id=group_chat_id,
                     video=path,
                     caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞:- 𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths"),
                     supports_streaming=True,
@@ -222,7 +223,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 thumb_path=thumbnail(sender)
                 caption = msg.caption if msg.caption is not None else str(file).split("/")[-1]
                 await client.send_document(
-                    sender,
+                    group_chat_id,
                     path, 
                     caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞:- 𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths"),
                     thumb=thumb_path,
