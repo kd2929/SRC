@@ -19,7 +19,7 @@ API_ID = config("API_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
 BOT_TOKEN = config("BOT_TOKEN", default=None)
 SESSION = config("SESSION", default=None)
-#FORCESUB = config("FORCESUB", default=None)
+Pvt_GroupId = config("Pvt_GroupId", default=None)
 AUTH = config("AUTH", default=None)
 SUDO_USERS = []
 if len(AUTH) != 0:
