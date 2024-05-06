@@ -244,11 +244,11 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
     else:
         edit = await client.edit_message_text(sender, edit_id, "Cloning.")
         chat =  msg_link.split("/")[-2]
-        await client.copy_message(int(sender), group_chat_id, chat, msg_id)
+        await client.copy_message(int(sender), chat, msg_id)
         await edit.delete()
         return None   
  
 async def get_bulk_msg(userbot, client, sender, msg_link, i):
     x = await client.send_message(sender, "Processing....!")
     file_name = ''
-    await get_msg(userbot, client, sender, x.id, msg_link, i, file_name) 
+    await get_msg(userbot, client, chat_id=group_chat_id, x.id, msg_link, i, file_name) 
