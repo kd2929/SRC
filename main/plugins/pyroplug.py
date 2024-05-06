@@ -4,7 +4,7 @@ import asyncio, time, os
 
 from pyrogram.enums import ParseMode , MessageMediaType
 
-from .. import Bot, bot
+from .. import Bot, bot, Pvt_GroupId
 from main.plugins.progress import progress_for_pyrogram
 from main.plugins.helpers import screenshot
 
@@ -15,7 +15,7 @@ from main.plugins.helpers import video_metadata
 from telethon import events
 
 import logging
-group_chat_id = int(-1001877289290)
+group_chat_id = int(Pvt_GroupId)
 
 logging.basicConfig(level=logging.debug,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
