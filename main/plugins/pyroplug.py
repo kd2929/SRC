@@ -178,7 +178,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=group_chat_id,
                     video=path,
-                    caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞:- 𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths"),
+                    caption=caption.replace("Extracted By @Banker004", "**Download By :** ༒ 𝐃𝐑𝐀𝐆𝐎 ༒\n`@yes_officer_bot`"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -225,7 +225,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     group_chat_id,
                     path, 
-                    caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("𝐁𝐚𝐭𝐜𝐡 𝐍𝐚𝐦𝐞:- 𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths"),
+                    caption=caption.replace("Extracted By @Banker004", "**Download By :** ༒ 𝐃𝐑𝐀𝐆𝐎 ༒\n`@yes_officer_bot`"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
