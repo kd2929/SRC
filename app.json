@@ -33,7 +33,7 @@
             "value": ""
         },
         "Pvt_GroupId": {
-            "description": "Username name of public channel without using '@'.",
+            "description": "Add Private Group Id and bot Should be Admin in this Group",
             "value": ""
         }
     },
